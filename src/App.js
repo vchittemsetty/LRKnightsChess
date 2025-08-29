@@ -17,9 +17,9 @@ import { gapi } from "gapi-script";
  */
 
 // -------------------- Configuration --------------------
-const CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID;
-const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
-const SPREADSHEET_ID = process.env.REACT_APP_SPREADSHEET_ID;
+const CLIENT_ID = "705313446478-h13tj5l6t11hvgjk8mkghrtak047tf47.apps.googleusercontent.com";
+const API_KEY = "AIzaSyDYzEu5gMXbwz5ZcBcb5bDH5Qxgc-FtERo";
+const SPREADSHEET_ID = "1zo9x7_sIgeYW_4-vm3YvTJf4Ukk6p4N4i9yWqlu9P8Y";
 const SCOPES = "https://www.googleapis.com/auth/spreadsheets"; // read/write
 const POLL_MS = 5000; // public view polling interval
 
