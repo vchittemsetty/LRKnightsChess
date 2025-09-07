@@ -9,6 +9,7 @@ export default function App() {
   return (
     <div>
       <h1>LR Knights Chess Tournament</h1>
+
       <div>
         <button onClick={() => setView("parents")}>Parents View</button>
         <button onClick={() => setView("td")}>TD Dashboard</button>

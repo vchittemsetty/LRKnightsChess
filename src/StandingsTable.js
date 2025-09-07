@@ -6,9 +6,12 @@ export default function StandingsTable({ standings }) {
       <thead>
         <tr>
           <th>Name</th>
-          <th>R1</th><th>R2</th><th>R3</th>
+          <th>R1</th>
+          <th>R2</th>
+          <th>R3</th>
           <th>Total</th>
-          <th>TB1</th><th>TB2</th>
+          <th>TB1</th>
+          <th>TB2</th>
         </tr>
       </thead>
       <tbody>

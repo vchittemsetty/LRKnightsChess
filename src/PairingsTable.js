@@ -5,7 +5,10 @@ export default function PairingsTable({ pairings, enterResult }) {
     <table border="1">
       <thead>
         <tr>
-          <th>Board</th><th>White</th><th>Black</th><th>Result</th>
+          <th>Board</th>
+          <th>White</th>
+          <th>Black</th>
+          <th>Result</th>
         </tr>
       </thead>
       <tbody>

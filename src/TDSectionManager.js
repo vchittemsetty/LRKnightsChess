@@ -12,8 +12,8 @@ export default function TDSectionManager({ section }) {
   }, [section]);
 
   const generatePairings = () => {
-    const sorted = [...players].sort((a, b) =>
-      b.score - a.score || b.rating - a.rating
+    const sorted = [...players].sort(
+      (a, b) => b.score - a.score || b.rating - a.rating
     );
 
     let newPairings = [];
@@ -39,7 +39,9 @@ export default function TDSectionManager({ section }) {
 
   return (
     <div>
-      <h2>{section} – Round {round}</h2>
+      <h2>
+        {section} – Round {round}
+      </h2>
       <button onClick={generatePairings}>Generate Pairings</button>
       <PairingsTable pairings={pairings} enterResult={enterResult} />
     </div>
